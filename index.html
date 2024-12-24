@@ -31,13 +31,15 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav gap-5 text-uppercase">
-              <a class="nav-link text-reset" href="#">About</a>
-              <a class="nav-link text-reset" href="#">Projects</a>
-              <a class="nav-link text-reset" href="#">Certifications</a>
-              <a class="nav-link text-reset" href="#">Experience</a>
-              <a class="nav-link text-reset" href="#">Skills</a>
-              <a class="nav-link text-reset" href="#">Education</a>
-              <a class="nav-link text-reset" href="#">Contact</a>
+              <a class="nav-link text-reset" href="#about">About</a>
+              <a class="nav-link text-reset" href="#projects">Projects</a>
+              <a class="nav-link text-reset" href="#certifications"
+                >Certifications</a
+              >
+              <a class="nav-link text-reset" href="#experience">Experience</a>
+              <a class="nav-link text-reset" href="#skills">Skills</a>
+              <a class="nav-link text-reset" href="#education">Education</a>
+              <a class="nav-link text-reset" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -45,10 +47,17 @@
     </header>
     <main>
       <section
-        class="text-center d-flex flex-column justify-content-center px-5"
-        style="height: 90vh"
+        class="text-center d-flex flex-column justify-content-center px-5 py-5"
+        id="about"
       >
-        <p class="mb-0 fs-1 fw-semibold">Hi,</p>
+        <img
+          src="assets/profilePhoto.jpg"
+          alt="nzube-photo"
+          class="img-fluid align-self-center rounded"
+          width="200"
+          height="200"
+        />
+        <p class="mb-0 mt-4 fs-1 fw-semibold">Hi,</p>
         <p class="mb-0 fs-1 fw-semibold">I'm Nzubechukwu Ifechukwu,</p>
         <p class="fs-2">
           <span>a certified data analyst</span
@@ -62,6 +71,145 @@
             <span class="fw-medium">Power BI</span>.</span
           >
         </p>
+      </section>
+      <section id="id" class="container pb-5">
+        <h2 class="text-center">PROJECTS</h2>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-4 mt-3">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/antarctic-penguin-species.png=80"
+                class="card-img-top"
+                alt="antarctic-penguin-species"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Clustering Antarctic Penguin Species</h5>
+                <p class="card-text">
+                  I perform a cluster analysis of penguins in Antarctic to
+                  identify groups in the data.
+                </p>
+                <a
+                  href="https://github.com/nzubeifechukwu/clustering-antarctic-penguin-species/blob/main/clustering-antarctic-penguins.ipynb"
+                  class="btn btn-primary d-block"
+                  >SEE PROJECT</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Python, Cluster Analysis, Unsupervised Learning</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/pets.jpg" class="card-img-top" alt="pets" />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Analyzing Sales by a Pet Product Retailer
+                </h5>
+                <p class="card-text">
+                  I clean sales data for a pet product retailer and analyze how
+                  repeat purchases of some products impact sales.
+                </p>
+                <a
+                  href="https://github.com/nzubeifechukwu/pet-supplies/blob/main/pet_supplies.ipynb"
+                  class="btn btn-primary d-block"
+                  >SEE PROJECT</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >SQL, Data Management, EDA</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/farmer_in_a_field.jpg"
+                class="card-img-top"
+                alt="farmer_in_a_field"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Predictive Modelling for Agriculture</h5>
+                <p class="card-text">
+                  I use my machine learning knowledge to help a farmer select
+                  the best crops for their fields.
+                </p>
+                <a
+                  href="https://github.com/nzubeifechukwu/predictive-modeling-agric/blob/main/predictive_modeling_agric.ipynb"
+                  class="btn btn-primary d-block"
+                  >SEE PROJECT</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Python, Multi Classification, Supervised Learning</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/soccer-pitch.jpg"
+                class="card-img-top"
+                alt="soccer-pitch"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hypothesis Testing with Men's and Women's Soccer Matches
+                </h5>
+                <p class="card-text">
+                  I perform a hypothesis test to determine if more goals are
+                  scored in women's international soccer matches than men's.
+                </p>
+                <a
+                  href="https://github.com/nzubeifechukwu/hypothesis-testing-men-women-soccer/blob/main/hypothesis_testing_soccer.ipynb"
+                  class="btn btn-primary d-block"
+                  >SEE PROJECT</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Python, Hypothesis Testing</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="assets/hr-image-small.png"
+                class="card-img-top"
+                alt="two ladies"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Customer Analytics: Preparing Data for Modeling
+                </h5>
+                <p class="card-text">
+                  I apply my knowledge of data types and categorical data to
+                  prepare, transform and efficiently store a dataset of trainees
+                  at a hypothetical data science training provider for data
+                  modelling.
+                </p>
+                <a
+                  href="https://github.com/nzubeifechukwu/customer-analytics/blob/main/customer_analytics.ipynb"
+                  class="btn btn-primary d-block"
+                  >SEE PROJECT</a
+                >
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary"
+                  >Python, Data Management</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
