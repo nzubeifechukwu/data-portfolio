@@ -13,7 +13,7 @@
   </head>
   <body class="text-bg-light">
     <header
-      class="text-bg-primary d-flex justify-content-evenly"
+      class="text-bg-primary d-flex justify-content-evenly fixed-top"
       data-bs-theme="dark"
     >
       <nav class="navbar navbar-expand-lg">
@@ -47,16 +47,9 @@
     </header>
     <main>
       <section
-        class="text-center d-flex flex-column justify-content-center px-5 py-5"
+        class="text-center d-flex flex-column justify-content-center vh-100"
         id="about"
       >
-        <img
-          src="assets/profilePhoto.jpg"
-          alt="nzube-photo"
-          class="img-fluid align-self-center rounded"
-          width="200"
-          height="200"
-        />
         <p class="mb-0 mt-4 fs-1 fw-semibold">Hi,</p>
         <p class="mb-0 fs-1 fw-semibold">I'm Nzubechukwu Ifechukwu,</p>
         <p class="fs-2">
@@ -72,8 +65,8 @@
           >
         </p>
       </section>
-      <section id="projects" class="container pb-5">
-        <h2 class="text-center">PROJECTS</h2>
+      <section id="projects" class="container px-4 py-5">
+        <h2 class="border-bottom pb-2 text-center">Projects</h2>
         <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-4 mt-3">
           <div class="col">
             <div class="card h-100">
@@ -90,8 +83,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/clustering-antarctic-penguin-species/blob/main/clustering-antarctic-penguins.ipynb"
-                  class="btn btn-primary d-block"
-                  >SEE PROJECT</a
+                  >See project</a
                 >
               </div>
               <div class="card-footer">
@@ -114,8 +106,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/pet-supplies/blob/main/pet_supplies.ipynb"
-                  class="btn btn-primary d-block"
-                  >SEE PROJECT</a
+                  >See project</a
                 >
               </div>
               <div class="card-footer">
@@ -140,8 +131,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/predictive-modeling-agric/blob/main/predictive_modeling_agric.ipynb"
-                  class="btn btn-primary d-block"
-                  >SEE PROJECT</a
+                  >See project</a
                 >
               </div>
               <div class="card-footer">
@@ -168,8 +158,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/hypothesis-testing-men-women-soccer/blob/main/hypothesis_testing_soccer.ipynb"
-                  class="btn btn-primary d-block"
-                  >SEE PROJECT</a
+                  >See project</a
                 >
               </div>
               <div class="card-footer">
@@ -198,8 +187,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/customer-analytics/blob/main/customer_analytics.ipynb"
-                  class="btn btn-primary d-block"
-                  >SEE PROJECT</a
+                  >See project</a
                 >
               </div>
               <div class="card-footer">
@@ -211,8 +199,8 @@
           </div>
         </div>
       </section>
-      <section id="certifications" class="container pb-5">
-        <h2 class="text-center">CERTIFICATIONS</h2>
+      <section id="certifications" class="container px-4 py-5">
+        <h2 class="border-bottom pb-2 text-center">Certifications</h2>
         <div class="row row-cols-1 row-cols-md-3 row-cols-sm-2 g-4 mt-3">
           <div class="col">
             <div class="card h-100">
@@ -232,8 +220,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/predictive-modeling-agric/blob/main/predictive_modeling_agric.ipynb"
-                  class="btn btn-primary d-block"
-                  >VERIFY</a
+                  >Verify</a
                 >
               </div>
               <div class="card-footer">
@@ -252,17 +239,15 @@
               <div class="card-body">
                 <h5 class="card-title">Applied Data Science Lab</h5>
                 <p class="card-text">
-                  In this lab, I built 8 end-to-end
-                  projects that demonstrate my ability to
-                  access data from various sources; explore and clean data; create
-                  functions and ETL pipelines to prepare training sets; and build
-                  machine learning models for supervised and unsupervised
-                  learning.
+                  In this lab, I built 8 end-to-end projects that demonstrate my
+                  ability to access data from various sources; explore and clean
+                  data; create functions and ETL pipelines to prepare training
+                  sets; and build machine learning models for supervised and
+                  unsupervised learning.
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/hypothesis-testing-men-women-soccer/blob/main/hypothesis_testing_soccer.ipynb"
-                  class="btn btn-primary d-block"
-                  >VERIFY</a
+                  >Verify</a
                 >
               </div>
               <div class="card-footer">
@@ -289,8 +274,7 @@
                 </p>
                 <a
                   href="https://github.com/nzubeifechukwu/customer-analytics/blob/main/customer_analytics.ipynb"
-                  class="btn btn-primary d-block"
-                  >VERIFY</a
+                  >Verify</a
                 >
               </div>
               <div class="card-footer">
@@ -299,6 +283,52 @@
                 >
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section class="container px-4 py-5" id="experience">
+        <h2 class="pb-2 border-bottom text-center">Experience</h2>
+        <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <h4>Integrated Elvee Services Limited, Enugu, Nigeria</h4>
+            <p class="fs-5">Data Analyst & Technical Instructor</p>
+            <ul class="ps-0">
+              <li class="list-group-item pb-2">
+                Hold weekly sessions with interns to answer questions related to
+                their learning.
+              </li>
+              <li class="list-group-item">
+                Review interns' weekly tasks and projects.
+              </li>
+            </ul>
+            <small>Jan. 2025–Present</small>
+          </div>
+          <div class="feature col">
+            <h4>Learnable ’24, Genesys Tech Hub, Enugu, Nigeria</h4>
+            <p class="fs-5">Data Analysis Mentor (Volunteer)</p>
+            <ul class="ps-0">
+              <li class="list-group-item pb-2">
+                Hold weekly sessions with interns to answer questions related to
+                their learning.
+              </li>
+              <li class="list-group-item">
+                Review interns' weekly tasks and projects.
+              </li>
+            </ul>
+            <small>Dec. 2024–Present</small>
+          </div>
+          <div class="feature col">
+            <h4>TekSkillUp, Enugu, Nigeria</h4>
+            <p class="fs-5">Python-for-Data-Analytics Instructor</p>
+            <ul class="ps-0">
+              <li class="list-group-item pb-2">
+                Taught, mentored and assessed the students in Python.
+              </li>
+              <li class="list-group-item">
+                Developed curriculum and projects in Python.
+              </li>
+            </ul>
+            <small>Sep. 2024–Nov. 2024</small>
           </div>
         </div>
       </section>
